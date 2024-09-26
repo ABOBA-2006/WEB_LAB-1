@@ -1,0 +1,30 @@
+@import url("main.css");
+
+
+
+.table__header{
+	background-color: lightblue;
+}
+
+
+
+.table__middle--1__cell--1{
+	background-color: lightcyan;
+}
+
+.table__middle--1__cell--3{
+	background-color: lightsalmon;
+	height: 75%;
+}
+
+
+
+.table__middle--2__cell--1{
+	background-color: lavender;
+}
+
+
+
+.table__footer{
+	background-color: #FAADC2;
+}

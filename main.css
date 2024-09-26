@@ -1,0 +1,179 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+}
+
+table{
+	font-family: Comic Sans MS;
+	width: 100%;
+	height: 100%;
+	/*to make no space between table cells*/
+    border-collapse: collapse; 
+}
+
+tr{
+	border: 1px solid black;
+}
+
+td{
+    vertical-align: middle;
+    height: 25%;
+}
+
+
+
+a{
+    text-decoration: none; 
+    color: inherit; 
+    transition: 1s;
+}
+a:visited{
+    color: inherit; 
+}
+a:active{
+	color: inherit; 
+}
+a:hover{
+	color:skyblue;
+	transition: 1s;
+}
+
+
+
+p{
+	font-size: 20px;
+	text-align: justify;
+}
+
+
+
+.cell__wide-text{
+	width: 70%;
+	margin-left: 15%;
+}
+
+
+
+.table__header__cell--1{
+	width:25%;
+}
+
+.table__header__cell--2{
+	width:45%;
+}
+
+.table__header__cell--3{
+	width:30%;
+	width: 50%;
+	margin-left: 0%;
+}
+
+
+
+.table__middle--1 td{
+	border: 1px solid black;
+}
+
+.table__middle--1__menu{
+	text-align: center;
+	height: 50%;
+}
+
+.table__middle--1__menu__list{
+	font-size: 30px;
+	display: inline-block;
+  	text-align: left;
+}
+
+.table__middle--1__cell--3__photo{
+	width:70%;
+	height:auto;
+	border-radius: 16px;
+	border: 2px solid black;
+	margin-left: 15%;
+}
+
+
+
+.table__footer__cell--1{
+	vertical-align: top;
+}
+
+.table__footer__cell--1__text{
+	margin-left: 10%;
+}
+
+.table__footer__cell--2__contacts{
+	width: 40%;
+	margin-left: 60%;
+}
+
+
+
+@media (min-width: 3800px){
+	.cell__wide-text{
+		font-size: 40px;
+	}
+	.table__footer__cell--2__contacts{
+		font-size: 50px;
+	}
+	h1{
+		font-size: 60px;
+	}
+	.table__middle--1__menu__list{
+		font-size: 60px;
+	}
+}
+
+@media (min-width: 2500px) and (max-width: 3799px){
+	.cell__wide-text{
+		font-size: 25px;
+	}
+	.table__footer__cell--2__contacts{
+		font-size: 30px;
+	}
+	h1{
+		font-size: 40px;
+	}
+	.table__middle--1__menu__list{
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 1500px){
+	.cell__wide-text{
+		width: 80%;
+		margin-left: 10%;
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 1300px){
+	.table__footer__cell--2__contacts{
+		margin-left: 50%;
+	}
+}
+
+@media (max-width: 1050px){
+	.table__footer__cell--2__contacts{
+		width: 60%;
+		margin-left: 40%;
+	}
+}
+
+@media (max-width: 850px){
+	.cell__wide-text{
+		width: 90%;
+		margin-left: 5%;
+		font-size: 15px;
+	}
+
+	.table__footer__cell--2__contacts{
+		width: 80%;
+		margin-left: 20%;
+	}		
+}

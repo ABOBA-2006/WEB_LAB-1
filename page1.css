@@ -1,0 +1,41 @@
+@import url("main.css");
+
+
+
+body{
+	color: #FBFBFB;
+}
+
+
+
+
+.table__header{
+	background-color: #3E3E3E;
+}
+
+
+
+.table__middle--1__cell--1{
+	background-color: #A2475D;
+}
+
+.table__middle--1__cell--3{
+	background-color: #C91E1E;
+	height: 75%;
+}
+
+.table__middle--1__menu__list{
+	color: #C22352;
+}
+
+
+
+.table__middle--2__cell--1{
+	background-color: #CA9A9A;
+}
+
+
+
+.table__footer{
+	background-color: #800127;
+}
